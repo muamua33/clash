@@ -1,9 +1,33 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: IS|91.194.161.7
+  password: OWJlYjYy
+  port: 8388
+  server: 91.194.161.7
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: BY|178.172.217.15
+  password: BC0pGODpbn0LrWJXPPz2UtsGNIiCDG8g5ncfBvBXm0gWCzJa
+  port: 51348
+  server: 178.172.217.15
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
   name: GB|51.141.100.85
   password: NK4KTpH4GbWznkJywV7VmA
   port: 28521
   server: 51.141.100.85
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: KR|43.201.64.47
+  password: amazonskr05
+  port: 443
+  server: 43.201.64.47
   type: ss
   udp: true
   udp-over-tcp: true
@@ -15,11 +39,27 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: TW|ty12.twty.dynu.net
-  password: 7b039abd-ad30-4ce4-a876-0a97a3ccaf74
-  port: 4303
-  server: ty12.twty.dynu.net
+- cipher: aes-256-cfb
+  name: KR|43.201.255.57
+  password: amazonskr05
+  port: 443
+  server: 43.201.255.57
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-128-gcm
+  name: SG|sg.qrfly.link
+  password: b264e44a-578c-4ce6-bb8d-cd31ae33201f
+  port: 20702
+  server: sg.qrfly.link
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: SG|13.213.1.132
+  password: amazonskr05
+  port: 443
+  server: 13.213.1.132
   type: ss
   udp: true
   udp-over-tcp: true
@@ -63,11 +103,19 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: TW|ty11.twty.dynu.net
-  password: 7b039abd-ad30-4ce4-a876-0a97a3ccaf74
-  port: 2203
-  server: ty11.twty.dynu.net
+- cipher: aes-256-cfb
+  name: SG|13.212.206.130
+  password: amazonskr05
+  port: 443
+  server: 13.212.206.130
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: JP|57.180.15.88
+  password: amazonskr05
+  port: 443
+  server: 57.180.15.88
   type: ss
   udp: true
   udp-over-tcp: true
