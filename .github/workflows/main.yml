@@ -1,0 +1,22 @@
+name: check
+
+on: workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - shell: bash
+      env:
+        SUPER_SECRET: ${{ secrets.SuperSecret }}
+      run: |
+        curl -o providers.yaml "$SUPER_SECRET"
+    - name: Git push
+      run: |
+        git config --global user.email "actions@github.com"
+        git config --global user.name "github actions"
+        git add .
+        git commit -m "update providers"
+        git push
