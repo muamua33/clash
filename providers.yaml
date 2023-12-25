@@ -8,26 +8,10 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
-  name: HK|120.233.43.24
-  password: dcbc1c7f-c323-4365-bd48-cf767f9081ce
-  port: 19511
-  server: 120.233.43.24
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
   name: GB|51.141.100.85
   password: NK4KTpH4GbWznkJywV7VmA
   port: 28521
   server: 51.141.100.85
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: SG|54.169.114.116
-  password: amazonskr05
-  port: 443
-  server: 54.169.114.116
   type: ss
   udp: true
   udp-over-tcp: true
@@ -40,10 +24,10 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: aes-256-cfb
-  name: SG|18.143.143.167
+  name: SG|3.1.81.236
   password: amazonskr05
   port: 443
-  server: 18.143.143.167
+  server: 3.1.81.236
   type: ss
   udp: true
   udp-over-tcp: true
@@ -63,6 +47,14 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
+- name: KR|UNLK1.LVWF8N-HH8E-2300-NMOO-D2E9NAOBEACN.9D8F269F96B25232-759CBB36D6548597.KAUFEN
+  password: cc287f24-c5a5-4ebc-a77a-bb95ff902445
+  port: 20152
+  server: UNLK1.LVWF8N-HH8E-2300-NMOO-D2E9NAOBEACN.9D8F269F96B25232-759CBB36D6548597.KAUFEN
+  skip-cert-verify: true
+  sni: 13-231-155-134.nhost.00cdn.com
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   name: US|54.201.23.39
   password: amazonskr05
@@ -71,6 +63,14 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
+- name: KR|unlk4.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
+  password: cc287f24-c5a5-4ebc-a77a-bb95ff902445
+  port: 21152
+  server: unlk4.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
+  skip-cert-verify: true
+  sni: unlk4.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   name: SE|121.127.46.147
   password: f8f7aCzcPKbsF8p3
@@ -84,6 +84,14 @@ proxies:
   password: C9Bj8nLTngraUjrwk82Ax7
   port: 24224
   server: 185.140.209.74
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: SG|52.221.212.191
+  password: amazonskr05
+  port: 443
+  server: 52.221.212.191
   type: ss
   udp: true
   udp-over-tcp: true
@@ -116,14 +124,6 @@ proxies:
   password: amazonskr05
   port: 443
   server: 43.201.64.47
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: JP|57.180.15.88
-  password: amazonskr05
-  port: 443
-  server: 57.180.15.88
   type: ss
   udp: true
   udp-over-tcp: true
