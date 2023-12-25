@@ -8,6 +8,30 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
+  name: AU|au.colacloud.site
+  password: 6acbfc03-f508-4ee0-8e28-c765930a5da3
+  port: 20262
+  server: au.colacloud.site
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- name: CA|68.233.121.121
+  password: 57edfecf-5694-4a34-8072-54a4f0636a62
+  port: 40020
+  server: 68.233.121.121
+  skip-cert-verify: true
+  sni: frontend.kuangbiaoyun.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG|sg.colacloud.site
+  password: 6acbfc03-f508-4ee0-8e28-c765930a5da3
+  port: 20152
+  server: sg.colacloud.site
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
   name: GB|51.141.100.85
   password: NK4KTpH4GbWznkJywV7VmA
   port: 28521
@@ -15,11 +39,51 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: KR|kr.colacloud.site
+  password: 6acbfc03-f508-4ee0-8e28-c765930a5da3
+  port: 20352
+  server: kr.colacloud.site
+  type: ss
+  udp: true
+  udp-over-tcp: true
 - cipher: aes-256-cfb
-  name: SG|3.1.81.236
+  name: JP|52.194.252.137
   password: amazonskr05
   port: 443
-  server: 3.1.81.236
+  server: 52.194.252.137
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: JP|jp.colacloud.site
+  password: 6acbfc03-f508-4ee0-8e28-c765930a5da3
+  port: 28152
+  server: jp.colacloud.site
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: KR|krcc9.ip8.shop
+  password: b17bbc7a-3da6-438b-81c7-9fa5aac4de38
+  port: 20153
+  server: krcc9.ip8.shop
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: SG|13.212.204.117
+  password: amazonskr05
+  port: 443
+  server: 13.212.204.117
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: US|us.colacloud.site
+  password: 6acbfc03-f508-4ee0-8e28-c765930a5da3
+  port: 20552
+  server: us.colacloud.site
   type: ss
   udp: true
   udp-over-tcp: true
@@ -31,19 +95,19 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: GB|95.164.37.226
-  password: NjJkZmYw
-  port: 8388
-  server: 95.164.37.226
-  type: ss
-  udp: true
-  udp-over-tcp: true
 - cipher: aes-256-cfb
   name: US|54.201.23.39
   password: amazonskr05
   port: 443
   server: 54.201.23.39
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: GB|95.164.37.226
+  password: NjJkZmYw
+  port: 8388
+  server: 95.164.37.226
   type: ss
   udp: true
   udp-over-tcp: true
@@ -88,18 +152,18 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: aes-256-cfb
-  name: KR|43.201.64.47
+  name: SG|3.1.81.236
   password: amazonskr05
   port: 443
-  server: 43.201.64.47
+  server: 3.1.81.236
   type: ss
   udp: true
   udp-over-tcp: true
 - cipher: aes-256-cfb
-  name: KR|3.35.131.11
+  name: KR|43.201.64.47
   password: amazonskr05
   port: 443
-  server: 3.35.131.11
+  server: 43.201.64.47
   type: ss
   udp: true
   udp-over-tcp: true
