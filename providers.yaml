@@ -16,6 +16,14 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: aes-256-cfb
+  name: SG|54.169.114.116
+  password: amazonskr05
+  port: 443
+  server: 54.169.114.116
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-cfb
   name: SG|13.212.206.130
   password: amazonskr05
   port: 443
@@ -47,14 +55,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- name: KR|UNLK1.LVWF8N-HH8E-2300-NMOO-D2E9NAOBEACN.9D8F269F96B25232-759CBB36D6548597.KAUFEN
-  password: cc287f24-c5a5-4ebc-a77a-bb95ff902445
-  port: 20152
-  server: UNLK1.LVWF8N-HH8E-2300-NMOO-D2E9NAOBEACN.9D8F269F96B25232-759CBB36D6548597.KAUFEN
-  skip-cert-verify: true
-  sni: 13-231-155-134.nhost.00cdn.com
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: US|54.201.23.39
   password: amazonskr05
@@ -63,14 +63,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- name: KR|unlk4.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
-  password: cc287f24-c5a5-4ebc-a77a-bb95ff902445
-  port: 21152
-  server: unlk4.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
-  skip-cert-verify: true
-  sni: unlk4.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: SE|121.127.46.147
   password: f8f7aCzcPKbsF8p3
