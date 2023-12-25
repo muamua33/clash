@@ -16,22 +16,6 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: aes-256-cfb
-  name: SG|54.169.114.116
-  password: amazonskr05
-  port: 443
-  server: 54.169.114.116
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: SG|13.212.206.130
-  password: amazonskr05
-  port: 443
-  server: 13.212.206.130
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
   name: SG|3.1.81.236
   password: amazonskr05
   port: 443
@@ -76,14 +60,6 @@ proxies:
   password: C9Bj8nLTngraUjrwk82Ax7
   port: 24224
   server: 185.140.209.74
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: SG|52.221.212.191
-  password: amazonskr05
-  port: 443
-  server: 52.221.212.191
   type: ss
   udp: true
   udp-over-tcp: true
