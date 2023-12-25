@@ -1,9 +1,17 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: IS|91.194.161.7
-  password: OWJlYjYy
-  port: 8388
-  server: 91.194.161.7
+- cipher: aes-256-cfb
+  name: US|35.90.10.174
+  password: amazonskr05
+  port: 443
+  server: 35.90.10.174
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: US|35.87.39.181
+  password: amazonskr05
+  port: 443
+  server: 35.87.39.181
   type: ss
   udp: true
   udp-over-tcp: true
@@ -52,6 +60,14 @@ proxies:
   password: amazonskr05
   port: 443
   server: 52.194.252.137
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: JP|18.181.171.223
+  password: amazonskr05
+  port: 443
+  server: 18.181.171.223
   type: ss
   udp: true
   udp-over-tcp: true
@@ -128,14 +144,6 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: aes-256-cfb
-  name: JP|54.95.21.57
-  password: amazonskr05
-  port: 443
-  server: 54.95.21.57
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
   name: KR|43.201.147.151
   password: amazonskr05
   port: 443
@@ -151,11 +159,11 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: SG|3.1.81.236
-  password: amazonskr05
-  port: 443
-  server: 3.1.81.236
+- cipher: chacha20-ietf-poly1305
+  name: IS|91.194.161.7
+  password: OWJlYjYy
+  port: 8388
+  server: 91.194.161.7
   type: ss
   udp: true
   udp-over-tcp: true
