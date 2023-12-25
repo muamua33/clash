@@ -1,13 +1,5 @@
 proxies:
 - cipher: aes-256-cfb
-  name: US|35.90.10.174
-  password: amazonskr05
-  port: 443
-  server: 35.90.10.174
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
   name: US|35.87.39.181
   password: amazonskr05
   port: 443
@@ -31,6 +23,14 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: GB|51.141.100.85
+  password: NK4KTpH4GbWznkJywV7VmA
+  port: 28521
+  server: 51.141.100.85
+  type: ss
+  udp: true
+  udp-over-tcp: true
 - name: KR|unlk5.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
   password: 682ac5bf-c171-4c8b-a896-a9a6ac327a53
   port: 25002
@@ -40,10 +40,10 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: SG|13.212.206.130
+  name: SG|54.169.114.116
   password: amazonskr05
   port: 443
-  server: 13.212.206.130
+  server: 54.169.114.116
   type: ss
   udp: true
   udp-over-tcp: true
@@ -71,6 +71,14 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: GB|95.164.37.226
+  password: NjJkZmYw
+  port: 8388
+  server: 95.164.37.226
+  type: ss
+  udp: true
+  udp-over-tcp: true
 - name: KR|UNLK1.LVWF8N-HH8E-2300-NMOO-D2E9NAOBEACN.9D8F269F96B25232-759CBB36D6548597.KAUFEN
   password: cc287f24-c5a5-4ebc-a77a-bb95ff902445
   port: 20152
@@ -87,14 +95,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- name: KR|unlk4.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
-  password: cc287f24-c5a5-4ebc-a77a-bb95ff902445
-  port: 21152
-  server: unlk4.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
-  skip-cert-verify: true
-  sni: unlk4.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
-  type: trojan
-  udp: true
 - name: KR|unlk3.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
   password: 7ea8830e-3120-4973-a0b6-4c25219eadfc
   port: 21852
