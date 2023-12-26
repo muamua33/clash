@@ -1,13 +1,5 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: IS|91.194.161.7
-  password: OWJlYjYy
-  port: 8388
-  server: 91.194.161.7
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
   name: NL|45.87.153.246
   password: f7EI0dGWQM42T8gwN9CZIj
   port: 6199
@@ -20,22 +12,6 @@ proxies:
   password: NjJkZmYw
   port: 8388
   server: 95.164.37.226
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: KR|nc.ct1.go002.xyz
-  password: dcbc1c7f-c323-4365-bd48-cf767f9081ce
-  port: 19551
-  server: nc.ct1.go002.xyz
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: KR|others.proxy.kk-proxy.pro
-  password: 1456835b-69ad-426e-8fec-7ea73233a524
-  port: 43340
-  server: others.proxy.kk-proxy.pro
   type: ss
   udp: true
   udp-over-tcp: true
@@ -64,18 +40,18 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: aes-256-cfb
-  name: KR|43.200.1.60
+  name: SG|52.221.240.143
   password: amazonskr05
   port: 443
-  server: 43.200.1.60
+  server: 52.221.240.143
   type: ss
   udp: true
   udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: JP|57.180.13.136
-  password: amazonskr05
-  port: 443
-  server: 57.180.13.136
+- cipher: chacha20-ietf-poly1305
+  name: KR|others.proxy.kk-proxy.pro
+  password: 1456835b-69ad-426e-8fec-7ea73233a524
+  port: 43340
+  server: others.proxy.kk-proxy.pro
   type: ss
   udp: true
   udp-over-tcp: true
@@ -84,14 +60,6 @@ proxies:
   password: NK4KTpH4GbWznkJywV7VmA
   port: 28521
   server: 51.141.100.85
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: US|54.201.23.39
-  password: amazonskr05
-  port: 443
-  server: 54.201.23.39
   type: ss
   udp: true
   udp-over-tcp: true
