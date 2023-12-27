@@ -7,6 +7,14 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
+- cipher: aes-256-gcm
+  name: US|38.91.107.37
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 38.91.107.37
+  type: ss
+  udp: true
+  udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
   name: DE|120.232.234.221
   password: dcbc1c7f-c323-4365-bd48-cf767f9081ce
@@ -127,11 +135,11 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: IS|91.194.161.7
-  password: OWJlYjYy
-  port: 8388
-  server: 91.194.161.7
+- cipher: aes-256-cfb
+  name: KR|43.201.104.144
+  password: amazonskr05
+  port: 443
+  server: 43.201.104.144
   type: ss
   udp: true
   udp-over-tcp: true
