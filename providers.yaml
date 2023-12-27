@@ -8,10 +8,10 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
-  name: DE|120.232.234.221
+  name: US|nc.cm.go002.xyz
   password: dcbc1c7f-c323-4365-bd48-cf767f9081ce
-  port: 19591
-  server: 120.232.234.221
+  port: 19561
+  server: nc.cm.go002.xyz
   type: ss
   udp: true
   udp-over-tcp: true
