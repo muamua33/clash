@@ -55,46 +55,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- name: HK|hk03.trojanyyds.xyz
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: hk03.trojanyyds.xyz
-  skip-cert-verify: true
-  sni: hk03.trojanyyds.xyz
-  type: trojan
-  udp: true
-- name: SG|sg01.trojanyyds.xyz
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: sg01.trojanyyds.xyz
-  skip-cert-verify: true
-  sni: sg01.trojanyyds.xyz
-  type: trojan
-  udp: true
-- name: IN|in01.trojanyyds.xyz
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: in01.trojanyyds.xyz
-  skip-cert-verify: true
-  sni: in01.trojanyyds.xyz
-  type: trojan
-  udp: true
-- name: HK|hk04.trojanyyds.xyz
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: hk04.trojanyyds.xyz
-  skip-cert-verify: true
-  sni: hk04.trojanyyds.xyz
-  type: trojan
-  udp: true
-- name: HK|hk02.trojanyyds.xyz
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: hk02.trojanyyds.xyz
-  skip-cert-verify: true
-  sni: hk02.trojanyyds.xyz
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: AT|5.181.21.19
   password: Njk2Nzcy
@@ -140,6 +100,22 @@ proxies:
   password: C9Bj8nLTngraUjrwk82Ax7
   port: 24224
   server: 185.140.209.74
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: JP|13.231.210.254
+  password: amazonskr05
+  port: 443
+  server: 13.231.210.254
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: SG|46.137.227.248
+  password: amazonskr05
+  port: 443
+  server: 46.137.227.248
   type: ss
   udp: true
   udp-over-tcp: true
