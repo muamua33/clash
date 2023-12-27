@@ -7,6 +7,14 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: US|35.90.10.174
+  password: amazonskr05
+  port: 443
+  server: 35.90.10.174
+  type: ss
+  udp: true
+  udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
   name: IS|91.194.161.7
   password: OWJlYjYy
@@ -20,14 +28,6 @@ proxies:
   password: 31LdYhP8Ae
   port: 58428
   server: 45.58.39.13
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: US|35.87.39.181
-  password: amazonskr05
-  port: 443
-  server: 35.87.39.181
   type: ss
   udp: true
   udp-over-tcp: true
@@ -48,26 +48,10 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
-  name: GB|nc.cm.go002.xyz
-  password: dcbc1c7f-c323-4365-bd48-cf767f9081ce
-  port: 19593
-  server: nc.cm.go002.xyz
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
   name: DE|120.232.234.221
   password: dcbc1c7f-c323-4365-bd48-cf767f9081ce
   port: 19591
   server: 120.232.234.221
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: US|nc.cn1.go002.xyz
-  password: dcbc1c7f-c323-4365-bd48-cf767f9081ce
-  port: 19561
-  server: nc.cn1.go002.xyz
   type: ss
   udp: true
   udp-over-tcp: true
@@ -111,46 +95,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: FI|45.159.249.231
-  password: zIPjynKNVVaBnKK0UZ5zu2
-  port: 38584
-  server: 45.159.249.231
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: GB|52.142.161.9
-  password: 64LbKHnB3IO759ueEnhgMG
-  port: 34424
-  server: 52.142.161.9
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: RU|45.144.30.202
-  password: yZdRgske85Hou96z2dRdtH
-  port: 28490
-  server: 45.144.30.202
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-gcm
-  name: US|38.75.136.49
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 38.75.136.49
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-128-gcm
-  name: SG|sg.qrfly.link
-  password: b264e44a-578c-4ce6-bb8d-cd31ae33201f
-  port: 20702
-  server: sg.qrfly.link
-  type: ss
-  udp: true
-  udp-over-tcp: true
 - cipher: aes-256-cfb
   name: KR|13.124.93.250
   password: amazonskr05
@@ -180,6 +124,38 @@ proxies:
   password: amazonskr05
   port: 443
   server: 52.221.240.143
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: FI|45.159.249.231
+  password: zIPjynKNVVaBnKK0UZ5zu2
+  port: 38584
+  server: 45.159.249.231
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: GB|52.142.161.9
+  password: 64LbKHnB3IO759ueEnhgMG
+  port: 34424
+  server: 52.142.161.9
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: RU|45.144.30.202
+  password: yZdRgske85Hou96z2dRdtH
+  port: 28490
+  server: 45.144.30.202
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-gcm
+  name: US|38.75.136.49
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 38.75.136.49
   type: ss
   udp: true
   udp-over-tcp: true
