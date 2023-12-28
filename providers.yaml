@@ -7,14 +7,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- cipher: aes-256-gcm
-  name: US|38.91.107.37
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 38.91.107.37
-  type: ss
-  udp: true
-  udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
   name: DE|120.232.234.221
   password: dcbc1c7f-c323-4365-bd48-cf767f9081ce
@@ -28,14 +20,6 @@ proxies:
   password: dcbc1c7f-c323-4365-bd48-cf767f9081ce
   port: 19561
   server: nc.cm.go002.xyz
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: KR|nc.ct1.go002.xyz
-  password: dcbc1c7f-c323-4365-bd48-cf767f9081ce
-  port: 19551
-  server: nc.ct1.go002.xyz
   type: ss
   udp: true
   udp-over-tcp: true
