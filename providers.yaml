@@ -7,6 +7,22 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
+- cipher: aes-256-gcm
+  name: US|38.91.107.37
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 38.91.107.37
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-gcm
+  name: US|38.75.136.49
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 38.75.136.49
+  type: ss
+  udp: true
+  udp-over-tcp: true
 - cipher: aes-256-cfb
   name: KR|43.201.100.232
   password: amazonskr05
@@ -36,6 +52,14 @@ proxies:
   password: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
   port: 9443
   server: b12.ntbq.dynu.net
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: HK|nc.ct1.go002.xyz
+  password: dcbc1c7f-c323-4365-bd48-cf767f9081ce
+  port: 19511
+  server: nc.ct1.go002.xyz
   type: ss
   udp: true
   udp-over-tcp: true
@@ -95,6 +119,14 @@ proxies:
   sni: my02.trojanyyds.xyz
   type: trojan
   udp: true
+- name: VN|hanoi4.speed4g.click
+  password: b379fd8e-75c6-4bd6-8a5b-88f3e64bb3fa
+  port: 443
+  server: hanoi4.speed4g.click
+  skip-cert-verify: true
+  sni: dl.kgvn.garenanow.com
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: GB|51.141.101.197
   password: mpbNXygSyEFjShgMh7tWHX
@@ -108,6 +140,14 @@ proxies:
   password: kYlKGnPRNwVk4RQEi7oqQs
   port: 24007
   server: 51.141.100.112
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: DE|120.232.234.221
+  password: dcbc1c7f-c323-4365-bd48-cf767f9081ce
+  port: 19591
+  server: 120.232.234.221
   type: ss
   udp: true
   udp-over-tcp: true
@@ -159,14 +199,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- name: KR|unlk5.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
-  password: e498c261-cabb-4b2c-810b-995d0bd8d049
-  port: 25002
-  server: unlk5.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
-  skip-cert-verify: true
-  sni: ip3691376078.mobgslb.tbcache.com
-  type: trojan
-  udp: true
 - cipher: aes-256-gcm
   name: US|rn.youkovo.eu.org
   password: pQDmgCrwBpsGzncYL0xz5Zj1Z0BYE8RlB8UykkTx9kHw
@@ -231,14 +263,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: KR|3.34.191.21
-  password: amazonskr05
-  port: 443
-  server: 3.34.191.21
-  type: ss
-  udp: true
-  udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
   name: GB|52.142.161.9
   password: 64LbKHnB3IO759ueEnhgMG
@@ -252,14 +276,6 @@ proxies:
   password: yZdRgske85Hou96z2dRdtH
   port: 28490
   server: 45.144.30.202
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: GB|95.164.37.226
-  password: NjJkZmYw
-  port: 8388
-  server: 95.164.37.226
   type: ss
   udp: true
   udp-over-tcp: true
