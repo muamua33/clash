@@ -1,25 +1,17 @@
 proxies:
-- cipher: aes-256-gcm
-  name: US|38.75.136.49
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 38.75.136.49
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-gcm
-  name: US|38.91.107.37
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 38.91.107.37
+- cipher: chacha20-ietf-poly1305
+  name: US|nc.cm.go002.xyz
+  password: dcbc1c7f-c323-4365-bd48-cf767f9081ce
+  port: 19561
+  server: nc.cm.go002.xyz
   type: ss
   udp: true
   udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
-  name: DE|120.232.234.221
+  name: US|nc.ct1.go002.xyz
   password: dcbc1c7f-c323-4365-bd48-cf767f9081ce
-  port: 19591
-  server: 120.232.234.221
+  port: 19561
+  server: nc.ct1.go002.xyz
   type: ss
   udp: true
   udp-over-tcp: true
@@ -47,62 +39,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- name: HK|hk03.trojanyyds.xyz
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: hk03.trojanyyds.xyz
-  skip-cert-verify: true
-  sni: hk03.trojanyyds.xyz
-  type: trojan
-  udp: true
-- name: SG|sg01.trojanyyds.xyz
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: sg01.trojanyyds.xyz
-  skip-cert-verify: true
-  sni: sg01.trojanyyds.xyz
-  type: trojan
-  udp: true
-- name: IN|in01.trojanyyds.xyz
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: in01.trojanyyds.xyz
-  skip-cert-verify: true
-  sni: in01.trojanyyds.xyz
-  type: trojan
-  udp: true
-- name: HK|hk04.trojanyyds.xyz
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: hk04.trojanyyds.xyz
-  skip-cert-verify: true
-  sni: hk04.trojanyyds.xyz
-  type: trojan
-  udp: true
-- name: HK|hk02.trojanyyds.xyz
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: hk02.trojanyyds.xyz
-  skip-cert-verify: true
-  sni: hk02.trojanyyds.xyz
-  type: trojan
-  udp: true
-- name: US|us01.trojanyyds.xyz
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: us01.trojanyyds.xyz
-  skip-cert-verify: true
-  sni: us01.trojanyyds.xyz
-  type: trojan
-  udp: true
-- name: GB|uk01.trojanyyds.xyz
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: uk01.trojanyyds.xyz
-  skip-cert-verify: true
-  sni: uk01.trojanyyds.xyz
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: AT|5.181.21.19
   password: Njk2Nzcy
@@ -176,10 +112,10 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: aes-256-cfb
-  name: SG|46.137.227.248
+  name: KR|43.201.100.232
   password: amazonskr05
   port: 443
-  server: 46.137.227.248
+  server: 43.201.100.232
   type: ss
   udp: true
   udp-over-tcp: true
@@ -188,6 +124,22 @@ proxies:
   password: amazonskr05
   port: 443
   server: 3.36.92.179
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: KR|3.34.191.21
+  password: amazonskr05
+  port: 443
+  server: 3.34.191.21
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: SG|46.137.227.248
+  password: amazonskr05
+  port: 443
+  server: 46.137.227.248
   type: ss
   udp: true
   udp-over-tcp: true
@@ -204,14 +156,6 @@ proxies:
   password: NjJkZmYw
   port: 8388
   server: 95.164.37.226
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: SG|52.221.240.143
-  password: amazonskr05
-  port: 443
-  server: 52.221.240.143
   type: ss
   udp: true
   udp-over-tcp: true
