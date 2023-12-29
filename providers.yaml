@@ -7,14 +7,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: US|35.87.39.181
-  password: amazonskr05
-  port: 443
-  server: 35.87.39.181
-  type: ss
-  udp: true
-  udp-over-tcp: true
 - cipher: aes-256-gcm
   name: US|38.75.136.49
   password: FoOiGlkAA9yPEGP
@@ -104,6 +96,14 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
+  name: GB|52.142.146.57
+  password: zpgPBiYXEhOwgwpCTaoTui
+  port: 50395
+  server: 52.142.146.57
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
   name: US|nc.cm.go002.xyz
   password: dcbc1c7f-c323-4365-bd48-cf767f9081ce
   port: 19561
@@ -124,14 +124,6 @@ proxies:
   password: amazonskr05
   port: 443
   server: 13.231.210.254
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: SG|13.250.30.209
-  password: amazonskr05
-  port: 443
-  server: 13.250.30.209
   type: ss
   udp: true
   udp-over-tcp: true
@@ -167,27 +159,11 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: JP|57.180.13.136
-  password: amazonskr05
-  port: 443
-  server: 57.180.13.136
-  type: ss
-  udp: true
-  udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
   name: NL|185.140.209.74
   password: C9Bj8nLTngraUjrwk82Ax7
   port: 24224
   server: 185.140.209.74
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: SG|13.250.25.60
-  password: amazonskr05
-  port: 443
-  server: 13.250.25.60
   type: ss
   udp: true
   udp-over-tcp: true
@@ -204,14 +180,6 @@ proxies:
   password: amazonskr05
   port: 443
   server: 3.34.252.133
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: KR|52.79.193.91
-  password: amazonskr05
-  port: 443
-  server: 52.79.193.91
   type: ss
   udp: true
   udp-over-tcp: true
@@ -239,14 +207,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- name: KR|sk01.trojanyyds.xyz
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: sk01.trojanyyds.xyz
-  skip-cert-verify: true
-  sni: sk01.trojanyyds.xyz
-  type: trojan
-  udp: true
 - name: VN|vn7.5gsieutocdo.com
   password: c95357eb-2869-4511-8940-f0dc5e1ec9b1
   port: 443
@@ -279,14 +239,6 @@ proxies:
   sni: dl.kgvn.garenanow.com
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: US|rn.youkovo.eu.org
-  password: pQDmgCrwBpsGzncYL0xz5Zj1Z0BYE8RlB8UykkTx9kHw
-  port: 17891
-  server: rn.youkovo.eu.org
-  type: ss
-  udp: true
-  udp-over-tcp: true
 - cipher: aes-256-cfb
   name: KR|3.34.191.21
   password: amazonskr05
