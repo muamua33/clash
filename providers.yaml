@@ -1,5 +1,13 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: FR|185.231.205.80
+  password: MGQwNTgw
+  port: 1443
+  server: 185.231.205.80
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
   name: IS|91.194.161.7
   password: OWJlYjYy
   port: 8388
@@ -47,14 +55,6 @@ proxies:
   sni: is2-t.sshmax.xyz
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: US|nc.cm.go002.xyz
-  password: dcbc1c7f-c323-4365-bd48-cf767f9081ce
-  port: 19561
-  server: nc.cm.go002.xyz
-  type: ss
-  udp: true
-  udp-over-tcp: true
 - cipher: aes-256-cfb
   name: US|34.221.71.169
   password: amazonskr05
@@ -99,14 +99,6 @@ proxies:
   password: b379fd8e-75c6-4bd6-8a5b-88f3e64bb3fa
   port: 443
   server: hanoi4.speed4g.click
-  skip-cert-verify: true
-  sni: dl.kgvn.garenanow.com
-  type: trojan
-  udp: true
-- name: VN|hanoi4.5gsieutocdo.com
-  password: c95357eb-2869-4511-8940-f0dc5e1ec9b1
-  port: 443
-  server: hanoi4.5gsieutocdo.com
   skip-cert-verify: true
   sni: dl.kgvn.garenanow.com
   type: trojan
@@ -175,14 +167,6 @@ proxies:
   sni: dl.kgvn.garenanow.com
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: NL|45.87.153.246
-  password: f7EI0dGWQM42T8gwN9CZIj
-  port: 6199
-  server: 45.87.153.246
-  type: ss
-  udp: true
-  udp-over-tcp: true
 - cipher: aes-256-gcm
   name: US|38.91.102.125
   password: kDWvXYZoTBcGkC4
@@ -191,14 +175,14 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- name: KR|unlk5.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
-  password: e498c261-cabb-4b2c-810b-995d0bd8d049
-  port: 25002
-  server: unlk5.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
-  skip-cert-verify: true
-  sni: ip3691376078.mobgslb.tbcache.com
-  type: trojan
+- cipher: aes-256-gcm
+  name: US|rn.youkovo.eu.org
+  password: pQDmgCrwBpsGzncYL0xz5Zj1Z0BYE8RlB8UykkTx9kHw
+  port: 17891
+  server: rn.youkovo.eu.org
+  type: ss
   udp: true
+  udp-over-tcp: true
 - cipher: aes-256-cfb
   name: SE|121.127.46.147
   password: f8f7aCzcPKbsF8p3
@@ -300,14 +284,6 @@ proxies:
   password: 64LbKHnB3IO759ueEnhgMG
   port: 34424
   server: 52.142.161.9
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: RU|45.144.30.202
-  password: yZdRgske85Hou96z2dRdtH
-  port: 28490
-  server: 45.144.30.202
   type: ss
   udp: true
   udp-over-tcp: true
