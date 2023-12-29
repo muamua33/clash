@@ -1,5 +1,13 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: FR|185.231.205.80
+  password: MGQwNTgw
+  port: 1443
+  server: 185.231.205.80
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
   name: IS|91.194.161.7
   password: OWJlYjYy
   port: 8388
@@ -55,6 +63,14 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
+- name: IS|89.221.224.94
+  password: 28c79056-ccfd-4cc1-93d4-c337cc782e65
+  port: 80
+  server: 89.221.224.94
+  skip-cert-verify: true
+  sni: is2-t.sshmax.xyz
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: US|nc.cm.go002.xyz
   password: dcbc1c7f-c323-4365-bd48-cf767f9081ce
@@ -87,6 +103,22 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
+- name: KR|sk01.trojanyyds.xyz
+  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  port: 443
+  server: sk01.trojanyyds.xyz
+  skip-cert-verify: true
+  sni: sk01.trojanyyds.xyz
+  type: trojan
+  udp: true
+- name: MY|my02.trojanyyds.xyz
+  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  port: 443
+  server: my02.trojanyyds.xyz
+  skip-cert-verify: true
+  sni: my02.trojanyyds.xyz
+  type: trojan
+  udp: true
 - name: VN|hanoi4.speed4g.click
   password: b379fd8e-75c6-4bd6-8a5b-88f3e64bb3fa
   port: 443
@@ -183,14 +215,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- name: KR|unlk5.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
-  password: e498c261-cabb-4b2c-810b-995d0bd8d049
-  port: 25002
-  server: unlk5.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
-  skip-cert-verify: true
-  sni: ip3691376078.mobgslb.tbcache.com
-  type: trojan
-  udp: true
 - cipher: aes-256-gcm
   name: US|rn.youkovo.eu.org
   password: pQDmgCrwBpsGzncYL0xz5Zj1Z0BYE8RlB8UykkTx9kHw
@@ -231,6 +255,14 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: JP|57.180.13.136
+  password: amazonskr05
+  port: 443
+  server: 57.180.13.136
+  type: ss
+  udp: true
+  udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
   name: NL|185.140.209.74
   password: C9Bj8nLTngraUjrwk82Ax7
@@ -244,6 +276,14 @@ proxies:
   password: amazonskr05
   port: 443
   server: 3.36.92.179
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: KR|3.34.191.21
+  password: amazonskr05
+  port: 443
+  server: 3.34.191.21
   type: ss
   udp: true
   udp-over-tcp: true
