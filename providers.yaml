@@ -55,14 +55,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- name: IS|89.221.224.94
-  password: 28c79056-ccfd-4cc1-93d4-c337cc782e65
-  port: 80
-  server: 89.221.224.94
-  skip-cert-verify: true
-  sni: is2-t.sshmax.xyz
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: US|nc.cm.go002.xyz
   password: dcbc1c7f-c323-4365-bd48-cf767f9081ce
