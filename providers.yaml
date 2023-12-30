@@ -239,14 +239,6 @@ proxies:
   sni: dl.kgvn.garenanow.com
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: KR|3.34.191.21
-  password: amazonskr05
-  port: 443
-  server: 3.34.191.21
-  type: ss
-  udp: true
-  udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
   name: GB|52.142.161.9
   password: 64LbKHnB3IO759ueEnhgMG
