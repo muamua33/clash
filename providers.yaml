@@ -1,9 +1,17 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: GB|51.141.100.181
-  password: RPODs7gmgeZANP3hwEeNLm
-  port: 14151
-  server: 51.141.100.181
+- cipher: aes-256-cfb
+  name: JP|13.231.210.254
+  password: amazonskr05
+  port: 443
+  server: 13.231.210.254
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: SG|54.169.202.194
+  password: amazonskr05
+  port: 443
+  server: 54.169.202.194
   type: ss
   udp: true
   udp-over-tcp: true
@@ -39,14 +47,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: JP|57.180.13.136
-  password: amazonskr05
-  port: 443
-  server: 57.180.13.136
-  type: ss
-  udp: true
-  udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
   name: NL|185.140.209.74
   password: C9Bj8nLTngraUjrwk82Ax7
@@ -64,34 +64,18 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: aes-256-cfb
-  name: KR|13.125.198.95
-  password: amazonskr05
-  port: 443
-  server: 13.125.198.95
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: JP|43.207.197.15
-  password: amazonskr05
-  port: 443
-  server: 43.207.197.15
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: JP|13.114.3.43
-  password: amazonskr05
-  port: 443
-  server: 13.114.3.43
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
   name: SG|13.215.184.165
   password: amazonskr05
   port: 443
   server: 13.215.184.165
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: GB|51.141.100.181
+  password: RPODs7gmgeZANP3hwEeNLm
+  port: 14151
+  server: 51.141.100.181
   type: ss
   udp: true
   udp-over-tcp: true
@@ -108,14 +92,6 @@ proxies:
   password: U1EYRQpU8rLGRKvDMfR6Fv
   port: 47413
   server: 45.8.146.35
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: SE|45.8.147.80
-  password: Q5CEiebSuSl2qFkfE4ztG2
-  port: 5741
-  server: 45.8.147.80
   type: ss
   udp: true
   udp-over-tcp: true
