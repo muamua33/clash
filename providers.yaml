@@ -111,14 +111,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: US|35.87.39.181
-  password: amazonskr05
-  port: 443
-  server: 35.87.39.181
-  type: ss
-  udp: true
-  udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
   name: US|45.8.146.35
   password: U1EYRQpU8rLGRKvDMfR6Fv
