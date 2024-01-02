@@ -8,10 +8,10 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
-  name: RU|45.144.30.202
-  password: yZdRgske85Hou96z2dRdtH
-  port: 28490
-  server: 45.144.30.202
+  name: SE|45.8.147.80
+  password: Q5CEiebSuSl2qFkfE4ztG2
+  port: 5741
+  server: 45.8.147.80
   type: ss
   udp: true
   udp-over-tcp: true
@@ -80,14 +80,6 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: aes-256-cfb
-  name: AL|31.171.153.181
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 31.171.153.181
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
   name: PA|138.186.142.4
   password: f8f7aCzcPKbsF8p3
   port: 989
@@ -120,18 +112,18 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: aes-256-cfb
-  name: SG|52.221.241.95
+  name: JP|54.95.107.168
   password: amazonskr05
   port: 443
-  server: 52.221.241.95
+  server: 54.95.107.168
   type: ss
   udp: true
   udp-over-tcp: true
 - cipher: aes-256-cfb
-  name: JP|13.114.3.43
+  name: JP|18.179.45.27
   password: amazonskr05
   port: 443
-  server: 13.114.3.43
+  server: 18.179.45.27
   type: ss
   udp: true
   udp-over-tcp: true
@@ -175,14 +167,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- name: JP|jp-csjc.syjd.xyz
-  password: 51eebef7-beaa-417b-9584-2794d10377c9
-  port: 443
-  server: jp-csjc.syjd.xyz
-  skip-cert-verify: true
-  sni: jp-csjc.syjd.xyz
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: US|54.201.23.39
   password: amazonskr05
