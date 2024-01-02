@@ -15,6 +15,22 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: SE|45.8.147.80
+  password: Q5CEiebSuSl2qFkfE4ztG2
+  port: 5741
+  server: 45.8.147.80
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: RU|45.144.30.202
+  password: yZdRgske85Hou96z2dRdtH
+  port: 28490
+  server: 45.144.30.202
+  type: ss
+  udp: true
+  udp-over-tcp: true
 - cipher: aes-256-cfb
   name: JP|35.77.105.112
   password: amazonskr05
@@ -28,6 +44,22 @@ proxies:
   password: YDSrXzv55YtU9EBtggpxV9
   port: 13506
   server: 51.142.106.171
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: DE|80.92.204.106
+  password: rpgbNnU9rDDU4aWZ
+  port: 9094
+  server: 80.92.204.106
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: GB|51.141.100.85
+  password: NK4KTpH4GbWznkJywV7VmA
+  port: 28521
+  server: 51.141.100.85
   type: ss
   udp: true
   udp-over-tcp: true
@@ -87,11 +119,19 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: SG|52.221.241.95
-  password: amazonskr05
-  port: 443
-  server: 52.221.241.95
+- cipher: chacha20-ietf-poly1305
+  name: GB|52.142.146.57
+  password: zpgPBiYXEhOwgwpCTaoTui
+  port: 50395
+  server: 52.142.146.57
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: GB|51.141.100.112
+  password: kYlKGnPRNwVk4RQEi7oqQs
+  port: 24007
+  server: 51.141.100.112
   type: ss
   udp: true
   udp-over-tcp: true
@@ -103,35 +143,11 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: JP|13.114.3.43
-  password: amazonskr05
-  port: 443
-  server: 13.114.3.43
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: JP|18.179.45.27
-  password: amazonskr05
-  port: 443
-  server: 18.179.45.27
-  type: ss
-  udp: true
-  udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
   name: US|45.8.146.35
   password: U1EYRQpU8rLGRKvDMfR6Fv
   port: 47413
   server: 45.8.146.35
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: GB|51.141.100.112
-  password: kYlKGnPRNwVk4RQEi7oqQs
-  port: 24007
-  server: 51.141.100.112
   type: ss
   udp: true
   udp-over-tcp: true
