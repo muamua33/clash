@@ -1,4 +1,20 @@
 proxies:
+- cipher: aes-256-cfb
+  name: US|35.87.39.181
+  password: amazonskr05
+  port: 443
+  server: 35.87.39.181
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-gcm
+  name: US|38.75.136.49
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 38.75.136.49
+  type: ss
+  udp: true
+  udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
   name: US|45.8.146.35
   password: U1EYRQpU8rLGRKvDMfR6Fv
@@ -12,6 +28,14 @@ proxies:
   password: Q5CEiebSuSl2qFkfE4ztG2
   port: 5741
   server: 45.8.147.80
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: US|35.90.10.174
+  password: amazonskr05
+  port: 443
+  server: 35.90.10.174
   type: ss
   udp: true
   udp-over-tcp: true
@@ -32,42 +56,10 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: rc4-md5
-  name: HK|pvcc01.graniterapids.com
-  password: 7v7bhvi1c4g
-  port: 9281
-  server: pvcc01.graniterapids.com
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: rc4-md5
   name: HK|pccw05.graniterapids.com
   password: 7v7bhvi1c4g
   port: 9281
   server: pccw05.graniterapids.com
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: rc4-md5
-  name: HK|pccw07.graniterapids.com
-  password: 7v7bhvi1c4g
-  port: 9281
-  server: pccw07.graniterapids.com
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: rc4-md5
-  name: JP|hr17.graniterapids.com
-  password: 7v7bhvi1c4g
-  port: 9281
-  server: hr17.graniterapids.com
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: rc4-md5
-  name: HK|hkaia01.graniterapids.com
-  password: 7v7bhvi1c4g
-  port: 9281
-  server: hkaia01.graniterapids.com
   type: ss
   udp: true
   udp-over-tcp: true
@@ -216,14 +208,6 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: aes-256-cfb
-  name: JP|13.114.3.43
-  password: amazonskr05
-  port: 443
-  server: 13.114.3.43
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
   name: JP|18.179.45.27
   password: amazonskr05
   port: 443
@@ -247,22 +231,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: KR|13.125.198.95
-  password: amazonskr05
-  port: 443
-  server: 13.125.198.95
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: SG|13.215.184.165
-  password: amazonskr05
-  port: 443
-  server: 13.215.184.165
-  type: ss
-  udp: true
-  udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
   name: GB|51.141.100.181
   password: RPODs7gmgeZANP3hwEeNLm
@@ -276,14 +244,6 @@ proxies:
   password: amazonskr05
   port: 443
   server: 15.165.15.228
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: KR|3.34.252.133
-  password: amazonskr05
-  port: 443
-  server: 3.34.252.133
   type: ss
   udp: true
   udp-over-tcp: true
