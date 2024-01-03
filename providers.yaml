@@ -7,14 +7,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: US|35.90.10.174
-  password: amazonskr05
-  port: 443
-  server: 35.90.10.174
-  type: ss
-  udp: true
-  udp-over-tcp: true
 - cipher: aes-256-gcm
   name: US|38.75.136.49
   password: FoOiGlkAA9yPEGP
@@ -39,6 +31,14 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: US|35.87.39.181
+  password: amazonskr05
+  port: 443
+  server: 35.87.39.181
+  type: ss
+  udp: true
+  udp-over-tcp: true
 - cipher: aes-256-gcm
   name: US|45.58.39.13
   password: 31LdYhP8Ae
@@ -52,14 +52,6 @@ proxies:
   password: amazonskr05
   port: 443
   server: 35.77.105.112
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: GB|51.141.101.197
-  password: mpbNXygSyEFjShgMh7tWHX
-  port: 65167
-  server: 51.141.101.197
   type: ss
   udp: true
   udp-over-tcp: true
@@ -95,14 +87,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: JP|57.180.13.136
-  password: amazonskr05
-  port: 443
-  server: 57.180.13.136
-  type: ss
-  udp: true
-  udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
   name: NL|185.140.209.74
   password: C9Bj8nLTngraUjrwk82Ax7
@@ -111,19 +95,11 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: GB|52.142.146.57
-  password: zpgPBiYXEhOwgwpCTaoTui
-  port: 50395
-  server: 52.142.146.57
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: GB|51.141.100.112
-  password: kYlKGnPRNwVk4RQEi7oqQs
-  port: 24007
-  server: 51.141.100.112
+- cipher: aes-256-cfb
+  name: SG|52.221.241.95
+  password: amazonskr05
+  port: 443
+  server: 52.221.241.95
   type: ss
   udp: true
   udp-over-tcp: true
@@ -136,10 +112,10 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: aes-256-cfb
-  name: JP|18.179.45.27
+  name: JP|13.114.3.43
   password: amazonskr05
   port: 443
-  server: 18.179.45.27
+  server: 13.114.3.43
   type: ss
   udp: true
   udp-over-tcp: true
@@ -175,14 +151,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: FI|45.159.249.231
-  password: zIPjynKNVVaBnKK0UZ5zu2
-  port: 38584
-  server: 45.159.249.231
-  type: ss
-  udp: true
-  udp-over-tcp: true
 - cipher: aes-256-cfb
   name: SG|54.169.202.194
   password: amazonskr05
@@ -204,14 +172,6 @@ proxies:
   password: AK4J1sRt2v3dLDUVC2P5lj
   port: 37726
   server: 94.131.12.245
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: GB|51.141.127.238
-  password: MK2Qnx66zkwpQQz8yTXVCF
-  port: 32413
-  server: 51.141.127.238
   type: ss
   udp: true
   udp-over-tcp: true
