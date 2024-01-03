@@ -31,6 +31,14 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
+- cipher: aes-256-gcm
+  name: US|45.58.39.13
+  password: 31LdYhP8Ae
+  port: 58428
+  server: 45.58.39.13
+  type: ss
+  udp: true
+  udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
   name: US|74.48.126.142
   password: d8bf8b51-0616-4155-a723-65fc57b7eb76
@@ -79,14 +87,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- name: JP|jp1.djjsvip.cfd
-  password: 7a57c3cd-2300-4867-9da2-9f8504b81af5
-  port: 443
-  server: jp1.djjsvip.cfd
-  skip-cert-verify: true
-  sni: download.xn--mes358acgm99l.com
-  type: trojan
-  udp: true
 - cipher: aes-256-gcm
   name: US|38.54.108.222
   password: cdBIDV42DCwnfIN
@@ -132,6 +132,14 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.164.35.9
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: JP|57.180.13.136
+  password: amazonskr05
+  port: 443
+  server: 57.180.13.136
   type: ss
   udp: true
   udp-over-tcp: true
@@ -188,14 +196,6 @@ proxies:
   password: amazonskr05
   port: 443
   server: 35.77.105.112
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: JP|54.95.107.168
-  password: amazonskr05
-  port: 443
-  server: 54.95.107.168
   type: ss
   udp: true
   udp-over-tcp: true
