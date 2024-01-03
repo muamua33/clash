@@ -7,6 +7,14 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: US|35.90.10.174
+  password: amazonskr05
+  port: 443
+  server: 35.90.10.174
+  type: ss
+  udp: true
+  udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
   name: RU|45.144.30.202
   password: yZdRgske85Hou96z2dRdtH
@@ -28,14 +36,6 @@ proxies:
   password: 4c698ff1-ab96-4ce3-8c3a-e23ced87b441
   port: 2203
   server: ty11.twty.dynu.net
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: VN|nc.cm.go002.xyz
-  password: 2df26669-1aba-49c2-a86d-8e426f2bd50d
-  port: 19584
-  server: nc.cm.go002.xyz
   type: ss
   udp: true
   udp-over-tcp: true
@@ -71,6 +71,14 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
+- cipher: aes-256-gcm
+  name: US|38.54.108.110
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 38.54.108.110
+  type: ss
+  udp: true
+  udp-over-tcp: true
 - cipher: aes-256-cfb
   name: SE|121.127.46.147
   password: f8f7aCzcPKbsF8p3
@@ -80,26 +88,10 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: aes-256-cfb
-  name: AL|31.171.153.181
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 31.171.153.181
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
   name: PA|138.186.142.4
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 138.186.142.4
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: BA|185.164.35.9
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.164.35.9
   type: ss
   udp: true
   udp-over-tcp: true
@@ -159,14 +151,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: JP|35.77.105.112
-  password: amazonskr05
-  port: 443
-  server: 35.77.105.112
-  type: ss
-  udp: true
-  udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
   name: US|45.8.146.35
   password: U1EYRQpU8rLGRKvDMfR6Fv
@@ -204,14 +188,6 @@ proxies:
   password: amazonskr05
   port: 443
   server: 15.165.15.228
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: CH|94.131.12.245
-  password: AK4J1sRt2v3dLDUVC2P5lj
-  port: 37726
-  server: 94.131.12.245
   type: ss
   udp: true
   udp-over-tcp: true
