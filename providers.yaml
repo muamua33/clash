@@ -23,6 +23,14 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: US|35.87.39.181
+  password: amazonskr05
+  port: 443
+  server: 35.87.39.181
+  type: ss
+  udp: true
+  udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
   name: TW|ty11.twty.dynu.net
   password: 4c698ff1-ab96-4ce3-8c3a-e23ced87b441
@@ -116,6 +124,14 @@ proxies:
   password: CVU1WQFX4F
   port: 24634
   server: 185.22.154.12
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: SG|13.229.72.52
+  password: amazonskr05
+  port: 443
+  server: 13.229.72.52
   type: ss
   udp: true
   udp-over-tcp: true
