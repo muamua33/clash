@@ -80,6 +80,14 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: aes-256-cfb
+  name: US|35.87.39.181
+  password: amazonskr05
+  port: 443
+  server: 35.87.39.181
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-cfb
   name: ES|92.38.171.89
   password: f8f7aCzcPKbsF8p3
   port: 989
@@ -263,14 +271,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: RU|45.144.30.202
-  password: yZdRgske85Hou96z2dRdtH
-  port: 28490
-  server: 45.144.30.202
-  type: ss
-  udp: true
-  udp-over-tcp: true
 - cipher: aes-256-cfb
   name: SE|121.127.46.147
   password: f8f7aCzcPKbsF8p3
@@ -319,14 +319,6 @@ proxies:
   sni: www.gpt123.one
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: JP|ad.cutecloud.link
-  password: 56633687-3c35-4bae-9a15-efff8eb67f98
-  port: 33567
-  server: ad.cutecloud.link
-  type: ss
-  udp: true
-  udp-over-tcp: true
 - cipher: aes-256-cfb
   name: JP|54.250.43.167
   password: amazonskr05
@@ -356,14 +348,6 @@ proxies:
   password: amazonskr05
   port: 443
   server: 52.221.203.229
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: JP|52.193.77.139
-  password: amazonskr05
-  port: 443
-  server: 52.193.77.139
   type: ss
   udp: true
   udp-over-tcp: true
