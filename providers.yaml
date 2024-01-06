@@ -215,6 +215,14 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: US|57.129.1.19
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 57.129.1.19
+  type: ss
+  udp: true
+  udp-over-tcp: true
 - name: US|jp3.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.5584fc1f.the-best-airport.com
   password: 91d7b973-630c-492f-9600-719f6a70f01e
   port: 443
@@ -247,27 +255,11 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: US|57.129.1.19
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 57.129.1.19
-  type: ss
-  udp: true
-  udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
   name: US|185.140.209.74
   password: C9Bj8nLTngraUjrwk82Ax7
   port: 24224
   server: 185.140.209.74
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: US|194.233.162.152
-  password: '5742394542'
-  port: 44460
-  server: 194.233.162.152
   type: ss
   udp: true
   udp-over-tcp: true
@@ -280,14 +272,6 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
-  name: US|173.255.203.253
-  password: '5742394542'
-  port: 44460
-  server: 173.255.203.253
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
   name: US|free.themars.top
   password: c0537e27-2330-4381-aa23-77d0c91eef41
   port: 32102
@@ -296,10 +280,18 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
-  name: US|zxpfgo.ssplane.cn
-  password: 57b62841-625e-4fc0-a4b7-cf9c59d6965e
-  port: 28038
-  server: zxpfgo.ssplane.cn
+  name: US|246.telegram-vmessprotocol-channel.space
+  password: VMESSPROTOCOL
+  port: 18741
+  server: 246.telegram-vmessprotocol-channel.space
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: US|51.142.75.225
+  password: OEYhlVQmP1nedIIIlMgNm5
+  port: 47430
+  server: 51.142.75.225
   type: ss
   udp: true
   udp-over-tcp: true
@@ -312,18 +304,34 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
-  name: US|45.87.153.246
-  password: f7EI0dGWQM42T8gwN9CZIj
-  port: 6199
-  server: 45.87.153.246
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
   name: US|tjcu.artehr.org
   password: 00fd945f-7eb9-4c03-8d47-d0044fe3fae2
   port: 32006
   server: tjcu.artehr.org
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: US|172.105.21.239
+  password: '5742394542'
+  port: 44460
+  server: 172.105.21.239
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: US|173.255.203.253
+  password: '5742394542'
+  port: 44460
+  server: 173.255.203.253
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: US|zxpfgo.ssplane.cn
+  password: 57b62841-625e-4fc0-a4b7-cf9c59d6965e
+  port: 28038
+  server: zxpfgo.ssplane.cn
   type: ss
   udp: true
   udp-over-tcp: true
@@ -336,10 +344,18 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
-  name: US|172.105.21.239
+  name: US|51.142.73.20
+  password: tAoWzuKvNOPrsLc4fAEOno
+  port: 6961
+  server: 51.142.73.20
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: US|194.233.162.152
   password: '5742394542'
   port: 44460
-  server: 172.105.21.239
+  server: 194.233.162.152
   type: ss
   udp: true
   udp-over-tcp: true
@@ -388,6 +404,14 @@ proxies:
   password: amazonskr05
   port: 443
   server: 3.112.32.102
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: US|45.87.153.246
+  password: f7EI0dGWQM42T8gwN9CZIj
+  port: 6199
+  server: 45.87.153.246
   type: ss
   udp: true
   udp-over-tcp: true
