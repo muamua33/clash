@@ -232,14 +232,6 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: aes-256-cfb
-  name: US|57.129.1.20
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 57.129.1.20
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
   name: US|57.180.13.136
   password: amazonskr05
   port: 443
@@ -247,6 +239,14 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
+- name: US|hk3.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.0d1f6a51.the-best-airport.com
+  password: 91d7b973-630c-492f-9600-719f6a70f01e
+  port: 443
+  server: hk3.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.0d1f6a51.the-best-airport.com
+  skip-cert-verify: true
+  sni: 144-22-163-118.nhost.00cdn.com
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   name: US|57.129.1.22
   password: asdKkaskJKfnsa
@@ -260,6 +260,22 @@ proxies:
   password: asdKkaskJKfnsa
   port: 443
   server: 57.129.1.19
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- name: US|jp3.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.5584fc1f.the-best-airport.com
+  password: 91d7b973-630c-492f-9600-719f6a70f01e
+  port: 443
+  server: jp3.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.5584fc1f.the-best-airport.com
+  skip-cert-verify: true
+  sni: 144-22-163-118.nhost.00cdn.com
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: US|57.129.1.20
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 57.129.1.20
   type: ss
   udp: true
   udp-over-tcp: true
@@ -421,14 +437,6 @@ proxies:
   server: 119-8-122-159.ipv4.rush.ml
   skip-cert-verify: true
   sni: 119-8-122-159.ipv4.rush.ml
-  type: trojan
-  udp: true
-- name: US|jp3.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.5584fc1f.the-best-airport.com
-  password: 91d7b973-630c-492f-9600-719f6a70f01e
-  port: 443
-  server: jp3.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.5584fc1f.the-best-airport.com
-  skip-cert-verify: true
-  sni: 144-22-163-118.nhost.00cdn.com
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
