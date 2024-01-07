@@ -159,20 +159,20 @@ proxies:
   sni: aws-s01.xiaohouzi.club
   type: trojan
   udp: true
-- name: US|iplc.xiaohouzi.club
-  password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28
-  port: 20032
-  server: iplc.xiaohouzi.club
-  skip-cert-verify: true
-  sni: hk-azure02.xiaohouzi.club
-  type: trojan
-  udp: true
 - name: US|hn.xiaohouzi.club
   password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28
   port: 18459
   server: hn.xiaohouzi.club
   skip-cert-verify: true
   sni: aru04.xiaohouzi.club
+  type: trojan
+  udp: true
+- name: US|iplc.xiaohouzi.club
+  password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28
+  port: 20032
+  server: iplc.xiaohouzi.club
+  skip-cert-verify: true
+  sni: hk-azure02.xiaohouzi.club
   type: trojan
   udp: true
 - name: US|hnm.xiaohouzi.club
@@ -183,12 +183,28 @@ proxies:
   sni: tukey.xiaohouzi.club
   type: trojan
   udp: true
-- name: US|119-8-122-159.ipv4.rush.ml
-  password: cf4295378e209e70d12c5bdd017144dfd1c772d3
-  port: 8443
-  server: 119-8-122-159.ipv4.rush.ml
+- cipher: chacha20-ietf-poly1305
+  name: US|ah.emoooo.club
+  password: 97239aa5-913f-44b6-bad1-1d88e9a605b9
+  port: 42135
+  server: ah.emoooo.club
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- name: US|uns.xiaohouzi.club
+  password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28
+  port: 13328
+  server: uns.xiaohouzi.club
   skip-cert-verify: true
-  sni: 119-8-122-159.ipv4.rush.ml
+  sni: siga01.xiaohouzi.club
+  type: trojan
+  udp: true
+- name: US|szf02.xiaohouzi.club
+  password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28
+  port: 27841
+  server: szf02.xiaohouzi.club
+  skip-cert-verify: true
+  sni: aws-s01.xiaohouzi.club
   type: trojan
   udp: true
 - cipher: aes-256-cfb
@@ -215,14 +231,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- name: US|jp3.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.5584fc1f.the-best-airport.com
-  password: 91d7b973-630c-492f-9600-719f6a70f01e
-  port: 443
-  server: jp3.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.5584fc1f.the-best-airport.com
-  skip-cert-verify: true
-  sni: 144-22-163-118.nhost.00cdn.com
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: US|57.129.1.20
   password: asdKkaskJKfnsa
@@ -264,58 +272,10 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
-  name: US|zjcu.artehr.org
-  password: 00fd945f-7eb9-4c03-8d47-d0044fe3fae2
-  port: 32005
-  server: zjcu.artehr.org
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: US|free.themars.top
-  password: c0537e27-2330-4381-aa23-77d0c91eef41
-  port: 32102
-  server: free.themars.top
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: US|246.telegram-vmessprotocol-channel.space
-  password: VMESSPROTOCOL
-  port: 18741
-  server: 246.telegram-vmessprotocol-channel.space
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: US|51.142.75.225
-  password: OEYhlVQmP1nedIIIlMgNm5
-  port: 47430
-  server: 51.142.75.225
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
   name: US|89.163.157.4
   password: NGJjN
   port: 1443
   server: 89.163.157.4
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: US|tjcu.artehr.org
-  password: 00fd945f-7eb9-4c03-8d47-d0044fe3fae2
-  port: 32006
-  server: tjcu.artehr.org
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: US|172.105.21.239
-  password: '5742394542'
-  port: 44460
-  server: 172.105.21.239
   type: ss
   udp: true
   udp-over-tcp: true
@@ -336,10 +296,50 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
-  name: US|51.145.68.57
-  password: KlJlXXe9KjQX4mh4xC05c9
-  port: 13751
-  server: 51.145.68.57
+  name: US|zjcu.artehr.org
+  password: 00fd945f-7eb9-4c03-8d47-d0044fe3fae2
+  port: 32005
+  server: zjcu.artehr.org
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: US|tjcu.artehr.org
+  password: 00fd945f-7eb9-4c03-8d47-d0044fe3fae2
+  port: 32006
+  server: tjcu.artehr.org
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: US|free.themars.top
+  password: c0537e27-2330-4381-aa23-77d0c91eef41
+  port: 32102
+  server: free.themars.top
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: US|194.233.162.152
+  password: '5742394542'
+  port: 44460
+  server: 194.233.162.152
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: US|51.142.75.225
+  password: OEYhlVQmP1nedIIIlMgNm5
+  port: 47430
+  server: 51.142.75.225
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: US|45.87.153.246
+  password: f7EI0dGWQM42T8gwN9CZIj
+  port: 6199
+  server: 45.87.153.246
   type: ss
   udp: true
   udp-over-tcp: true
@@ -352,10 +352,18 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
-  name: US|194.233.162.152
+  name: US|51.145.68.57
+  password: KlJlXXe9KjQX4mh4xC05c9
+  port: 13751
+  server: 51.145.68.57
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
+  name: US|172.105.21.239
   password: '5742394542'
   port: 44460
-  server: 194.233.162.152
+  server: 172.105.21.239
   type: ss
   udp: true
   udp-over-tcp: true
@@ -407,6 +415,30 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
+- name: US|119-8-122-159.ipv4.rush.ml
+  password: cf4295378e209e70d12c5bdd017144dfd1c772d3
+  port: 8443
+  server: 119-8-122-159.ipv4.rush.ml
+  skip-cert-verify: true
+  sni: 119-8-122-159.ipv4.rush.ml
+  type: trojan
+  udp: true
+- name: US|jp3.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.5584fc1f.the-best-airport.com
+  password: 91d7b973-630c-492f-9600-719f6a70f01e
+  port: 443
+  server: jp3.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.5584fc1f.the-best-airport.com
+  skip-cert-verify: true
+  sni: 144-22-163-118.nhost.00cdn.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: US|246.telegram-vmessprotocol-channel.space
+  password: VMESSPROTOCOL
+  port: 18741
+  server: 246.telegram-vmessprotocol-channel.space
+  type: ss
+  udp: true
+  udp-over-tcp: true
 - cipher: aes-256-cfb
   name: US|57.180.23.155
   password: amazonskr05
@@ -428,14 +460,6 @@ proxies:
   password: amazonskr05
   port: 443
   server: 3.112.29.118
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: US|45.87.153.246
-  password: f7EI0dGWQM42T8gwN9CZIj
-  port: 6199
-  server: 45.87.153.246
   type: ss
   udp: true
   udp-over-tcp: true
