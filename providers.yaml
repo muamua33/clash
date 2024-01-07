@@ -143,38 +143,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- name: US|//263adbfb-49a8-3daf-8a79-2e1687b5dc28
-  password: null
-  port: szf02.xiaohouzi.club
-  server: //263adbfb-49a8-3daf-8a79-2e1687b5dc28
-  skip-cert-verify: true
-  sni: aws-s01.xiaohouzi.club
-  type: trojan
-  udp: true
-- name: US|hn.xiaohouzi.club
-  password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28
-  port: 18459
-  server: hn.xiaohouzi.club
-  skip-cert-verify: true
-  sni: aru04.xiaohouzi.club
-  type: trojan
-  udp: true
-- name: US|iplc.xiaohouzi.club
-  password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28
-  port: 20032
-  server: iplc.xiaohouzi.club
-  skip-cert-verify: true
-  sni: hk-azure02.xiaohouzi.club
-  type: trojan
-  udp: true
-- name: US|hnm.xiaohouzi.club
-  password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28
-  port: 17105
-  server: hnm.xiaohouzi.club
-  skip-cert-verify: true
-  sni: tukey.xiaohouzi.club
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: US|ah.emoooo.club
   password: 97239aa5-913f-44b6-bad1-1d88e9a605b9
@@ -183,22 +151,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- name: US|uns.xiaohouzi.club
-  password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28
-  port: 13328
-  server: uns.xiaohouzi.club
-  skip-cert-verify: true
-  sni: siga01.xiaohouzi.club
-  type: trojan
-  udp: true
-- name: US|szf02.xiaohouzi.club
-  password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28
-  port: 27841
-  server: szf02.xiaohouzi.club
-  skip-cert-verify: true
-  sni: aws-s01.xiaohouzi.club
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: US|217.30.10.68
   password: bf7v334KKDV3YDhH
@@ -223,14 +175,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- name: US|tank.19890604.day
-  password: 3bbd7fb2-4d5b-4a71-992c-809d2574182a
-  port: 10834
-  server: tank.19890604.day
-  skip-cert-verify: true
-  sni: tank.19890604.day
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: US|51.145.68.51
   password: FNAQhxQ1g37o4DYM54pn8f
@@ -343,14 +287,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- name: US|falungong.19890604.day
-  password: 3bbd7fb2-4d5b-4a71-992c-809d2574182a
-  port: 10826
-  server: falungong.19890604.day
-  skip-cert-verify: true
-  sni: falungong.19890604.day
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: US|p238.panda004.net
   password: qwerREWQ@@
@@ -455,22 +391,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- name: US|xijinping.19890604.day
-  password: 3bbd7fb2-4d5b-4a71-992c-809d2574182a
-  port: 10811
-  server: xijinping.19890604.day
-  skip-cert-verify: true
-  sni: xijinping.19890604.day
-  type: trojan
-  udp: true
-- name: US|vn6.5gsieutocdo.com
-  password: c95357eb-2869-4511-8940-f0dc5e1ec9b1
-  port: 443
-  server: vn6.5gsieutocdo.com
-  skip-cert-verify: true
-  sni: dl.kgvn.garenanow.com
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: US|43.201.147.151
   password: amazonskr05
@@ -655,38 +575,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- name: US|hk3.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.0d1f6a51.the-best-airport.com
-  password: 91d7b973-630c-492f-9600-719f6a70f01e
-  port: 443
-  server: hk3.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.0d1f6a51.the-best-airport.com
-  skip-cert-verify: true
-  sni: 144-22-163-118.nhost.00cdn.com
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: US|57.129.1.22
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 57.129.1.22
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: US|57.129.1.19
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 57.129.1.19
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- name: US|jp3.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.5584fc1f.the-best-airport.com
-  password: 91d7b973-630c-492f-9600-719f6a70f01e
-  port: 443
-  server: jp3.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.5584fc1f.the-best-airport.com
-  skip-cert-verify: true
-  sni: 144-22-163-118.nhost.00cdn.com
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: US|57.129.1.20
   password: asdKkaskJKfnsa
@@ -700,6 +588,22 @@ proxies:
   password: amazonskr05
   port: 443
   server: 57.180.13.136
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: US|57.129.1.22
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 57.129.1.22
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: US|57.129.1.19
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 57.129.1.19
   type: ss
   udp: true
   udp-over-tcp: true
@@ -855,14 +759,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- name: US|sg8.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.c586e7c2.the-best-airport.com
-  password: 91d7b973-630c-492f-9600-719f6a70f01e
-  port: 443
-  server: sg8.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.c586e7c2.the-best-airport.com
-  skip-cert-verify: true
-  sni: 144-22-163-118.nhost.00cdn.com
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: US|35.87.39.181
   password: amazonskr05
@@ -879,14 +775,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- name: US|119-8-122-159.ipv4.rush.ml
-  password: cf4295378e209e70d12c5bdd017144dfd1c772d3
-  port: 8443
-  server: 119-8-122-159.ipv4.rush.ml
-  skip-cert-verify: true
-  sni: 119-8-122-159.ipv4.rush.ml
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: US|246.telegram-vmessprotocol-channel.space
   password: VMESSPROTOCOL
@@ -943,14 +831,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- name: US|jp2.djjsvip.cfd
-  password: 46d69a7e-9002-44a3-99c1-01c412f29726
-  port: 443
-  server: jp2.djjsvip.cfd
-  skip-cert-verify: true
-  sni: download.xn--mes358a9urctx.com
-  type: trojan
-  udp: true
 - cipher: aes-256-gcm
   name: US|38.121.43.65
   password: RexnBgU7EV5ADxG
@@ -975,14 +855,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- name: US|tiananmen.19890604.day
-  password: b23b4d05-3b27-4da9-881f-ad81dcab7ff7
-  port: 10801
-  server: tiananmen.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: US|178.172.217.15
   password: ZRMKpuRW93DpbnxDxxHE5GKluDFlIq3pL95yKEBnzIm0Ejqd
@@ -1087,14 +959,6 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
-- name: US|jp2.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.02444020.the-best-airport.com
-  password: 91d7b973-630c-492f-9600-719f6a70f01e
-  port: 443
-  server: jp2.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.02444020.the-best-airport.com
-  skip-cert-verify: true
-  sni: 144-22-163-118.nhost.00cdn.com
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: US|54.250.43.167
   password: amazonskr05
