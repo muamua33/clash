@@ -688,30 +688,6 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: aes-256-cfb
-  name: US|57.129.1.22
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 57.129.1.22
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: US|57.129.1.19
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 57.129.1.19
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- name: US|jp3.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.5584fc1f.the-best-airport.com
-  password: 91d7b973-630c-492f-9600-719f6a70f01e
-  port: 443
-  server: jp3.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.5584fc1f.the-best-airport.com
-  skip-cert-verify: true
-  sni: 144-22-163-118.nhost.00cdn.com
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
   name: US|57.129.1.20
   password: asdKkaskJKfnsa
   port: 443
@@ -739,6 +715,30 @@ proxies:
   password: 91d7b973-630c-492f-9600-719f6a70f01e
   port: 443
   server: hk3.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.0d1f6a51.the-best-airport.com
+  skip-cert-verify: true
+  sni: 144-22-163-118.nhost.00cdn.com
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: US|57.129.1.22
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 57.129.1.22
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: US|57.129.1.19
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 57.129.1.19
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- name: US|jp3.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.5584fc1f.the-best-airport.com
+  password: 91d7b973-630c-492f-9600-719f6a70f01e
+  port: 443
+  server: jp3.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.5584fc1f.the-best-airport.com
   skip-cert-verify: true
   sni: 144-22-163-118.nhost.00cdn.com
   type: trojan
