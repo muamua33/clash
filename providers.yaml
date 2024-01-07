@@ -215,6 +215,22 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
+- name: US|jp3.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.5584fc1f.the-best-airport.com
+  password: 91d7b973-630c-492f-9600-719f6a70f01e
+  port: 443
+  server: jp3.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.5584fc1f.the-best-airport.com
+  skip-cert-verify: true
+  sni: 144-22-163-118.nhost.00cdn.com
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: US|57.129.1.20
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 57.129.1.20
+  type: ss
+  udp: true
+  udp-over-tcp: true
 - cipher: aes-256-cfb
   name: US|57.180.13.136
   password: amazonskr05
@@ -236,22 +252,6 @@ proxies:
   password: asdKkaskJKfnsa
   port: 443
   server: 57.129.1.19
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- name: US|jp3.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.5584fc1f.the-best-airport.com
-  password: 91d7b973-630c-492f-9600-719f6a70f01e
-  port: 443
-  server: jp3.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.5584fc1f.the-best-airport.com
-  skip-cert-verify: true
-  sni: 144-22-163-118.nhost.00cdn.com
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: US|57.129.1.20
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 57.129.1.20
   type: ss
   udp: true
   udp-over-tcp: true
@@ -376,6 +376,38 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: aes-256-cfb
+  name: US|43.207.172.144
+  password: amazonskr05
+  port: 443
+  server: 43.207.172.144
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: US|43.200.1.60
+  password: amazonskr05
+  port: 443
+  server: 43.200.1.60
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: US|13.215.209.192
+  password: amazonskr05
+  port: 443
+  server: 13.215.209.192
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: US|3.112.32.102
+  password: amazonskr05
+  port: 443
+  server: 3.112.32.102
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-cfb
   name: US|57.180.23.155
   password: amazonskr05
   port: 443
@@ -396,14 +428,6 @@ proxies:
   password: amazonskr05
   port: 443
   server: 3.112.29.118
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: US|3.112.32.102
-  password: amazonskr05
-  port: 443
-  server: 3.112.32.102
   type: ss
   udp: true
   udp-over-tcp: true
