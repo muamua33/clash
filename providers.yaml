@@ -608,42 +608,10 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: aes-128-gcm
-  name: US|38.68.134.85
-  password: YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ
-  port: 8008
-  server: 38.68.134.85
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: chacha20-ietf-poly1305
-  name: US|51.142.75.225
-  password: OEYhlVQmP1nedIIIlMgNm5
-  port: 47430
-  server: 51.142.75.225
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-gcm
-  name: US|38.54.108.222
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 38.54.108.222
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-128-gcm
-  name: US|ad.cutecloud.link
-  password: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1NjYzMzY4Ny0zYzM1LTRiYWUtOWExNS1lZmZmOGViNjdmOTg
-  port: 33567
-  server: ad.cutecloud.link
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-128-gcm
-  name: US|series-a1.samanehha.co
-  password: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB
+  name: US|series-a2-me.samanehha.co
+  password: Y2hhY2hhMjAtcG9seTEzMDU6Qm9nMEVMbU1NOURTeERkUQ
   port: 443
-  server: series-a1.samanehha.co
+  server: series-a2-me.samanehha.co
   type: ss
   udp: true
   udp-over-tcp: true
@@ -656,10 +624,10 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: aes-128-gcm
-  name: US|45.58.39.13
-  password: YWVzLTI1Ni1nY206MzFMZFloUDhBZQ
-  port: 58428
-  server: 45.58.39.13
+  name: US|ad.cutecloud.link
+  password: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1NjYzMzY4Ny0zYzM1LTRiYWUtOWExNS1lZmZmOGViNjdmOTg
+  port: 33567
+  server: ad.cutecloud.link
   type: ss
   udp: true
   udp-over-tcp: true
@@ -684,30 +652,6 @@ proxies:
   password: asdKkaskJKfnsa
   port: 443
   server: 57.129.1.21
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: US|57.129.1.20
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 57.129.1.20
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- name: US|sg8.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.c586e7c2.the-best-airport.com
-  password: 91d7b973-630c-492f-9600-719f6a70f01e
-  port: 443
-  server: sg8.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.c586e7c2.the-best-airport.com
-  skip-cert-verify: true
-  sni: 144-22-163-118.nhost.00cdn.com
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: US|57.180.13.136
-  password: amazonskr05
-  port: 443
-  server: 57.180.13.136
   type: ss
   udp: true
   udp-over-tcp: true
@@ -743,6 +687,22 @@ proxies:
   sni: 144-22-163-118.nhost.00cdn.com
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: US|57.129.1.20
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 57.129.1.20
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-cfb
+  name: US|57.180.13.136
+  password: amazonskr05
+  port: 443
+  server: 57.180.13.136
+  type: ss
+  udp: true
+  udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
   name: US|185.140.209.74
   password: C9Bj8nLTngraUjrwk82Ax7
@@ -783,6 +743,14 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
+- cipher: aes-128-gcm
+  name: US|series-a1.samanehha.co
+  password: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB
+  port: 443
+  server: series-a1.samanehha.co
+  type: ss
+  udp: true
+  udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
   name: US|tjcu.artehr.org
   password: 00fd945f-7eb9-4c03-8d47-d0044fe3fae2
@@ -800,6 +768,14 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: chacha20-ietf-poly1305
+  name: US|51.142.75.225
+  password: OEYhlVQmP1nedIIIlMgNm5
+  port: 47430
+  server: 51.142.75.225
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: chacha20-ietf-poly1305
   name: US|89.163.157.4
   password: NGJjN
   port: 1443
@@ -812,6 +788,14 @@ proxies:
   password: 57b62841-625e-4fc0-a4b7-cf9c59d6965e
   port: 28038
   server: zxpfgo.ssplane.cn
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-256-gcm
+  name: US|38.54.108.222
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 38.54.108.222
   type: ss
   udp: true
   udp-over-tcp: true
@@ -855,6 +839,30 @@ proxies:
   type: ss
   udp: true
   udp-over-tcp: true
+- cipher: aes-128-gcm
+  name: US|38.68.134.85
+  password: YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ
+  port: 8008
+  server: 38.68.134.85
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- cipher: aes-128-gcm
+  name: US|45.58.39.13
+  password: YWVzLTI1Ni1nY206MzFMZFloUDhBZQ
+  port: 58428
+  server: 45.58.39.13
+  type: ss
+  udp: true
+  udp-over-tcp: true
+- name: US|sg8.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.c586e7c2.the-best-airport.com
+  password: 91d7b973-630c-492f-9600-719f6a70f01e
+  port: 443
+  server: sg8.ba2472f5-8ad5-503e-f1e4-13b8c0fc695b.c586e7c2.the-best-airport.com
+  skip-cert-verify: true
+  sni: 144-22-163-118.nhost.00cdn.com
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   name: US|35.87.39.181
   password: amazonskr05
