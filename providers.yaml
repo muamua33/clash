@@ -224,22 +224,6 @@ proxies:
   udp: true
   udp-over-tcp: true
 - cipher: aes-256-cfb
-  name: KR|43.201.147.151
-  password: amazonskr05
-  port: 443
-  server: 43.201.147.151
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
-  name: KR|3.34.191.21
-  password: amazonskr05
-  port: 443
-  server: 3.34.191.21
-  type: ss
-  udp: true
-  udp-over-tcp: true
-- cipher: aes-256-cfb
   name: KR|43.201.64.47
   password: amazonskr05
   port: 443
