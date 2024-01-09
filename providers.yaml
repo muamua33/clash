@@ -1,9 +1,16 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: DE|49.13.10.50
-  password: Uxm4ADwftKdXq5qRA4ZfHS
-  port: 1194
-  server: 49.13.10.50
+- cipher: aes-256-cfb
+  name: FR|195.154.185.174
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 195.154.185.174
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: US|212.102.47.198
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -14,10 +21,59 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: FR|195.154.185.174
+  name: GB|77.72.5.150
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 195.154.185.174
+  server: 77.72.5.150
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE|217.182.198.219
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 217.182.198.219
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: GB|77.72.5.113
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 77.72.5.113
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: CL|190.120.230.9
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 190.120.230.9
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: PA|138.186.142.4
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 138.186.142.4
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: FR|51.159.111.208
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.159.111.208
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: AR|190.103.176.29
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 190.103.176.29
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: BA|185.164.35.9
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.164.35.9
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -27,18 +83,60 @@ proxies:
   server: 185.180.12.81
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: CH|84.17.53.160
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 84.17.53.160
+- cipher: aes-256-gcm
+  name: NL|51.158.146.102
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 51.158.146.102
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: SG|18.142.250.63
+  name: HR|46.183.184.61
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 46.183.184.61
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: HR|46.183.184.60
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 46.183.184.60
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US|54.201.23.39
   password: amazonskr05
   port: 443
-  server: 18.142.250.63
+  server: 54.201.23.39
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US|38.75.136.49
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 38.75.136.49
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US|167.88.62.104
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 167.88.62.104
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: GT|170.80.111.6
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 170.80.111.6
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: PE|190.120.229.28
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 190.120.229.28
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -55,151 +153,11 @@ proxies:
   server: 31.171.153.181
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: PA|138.186.142.4
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 138.186.142.4
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: GB|77.72.5.113
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 77.72.5.113
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US|38.68.134.202
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 38.68.134.202
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: MX|190.103.179.23
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 190.103.179.23
-  type: ss
-  udp: true
-- cipher: aes-128-cfb
-  name: US|212.102.47.198
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.198
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: GB|145.239.6.202
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 145.239.6.202
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US|38.68.134.69
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 38.68.134.69
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: FR|51.159.111.208
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.159.111.208
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR|51.158.150.168
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 51.158.150.168
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: GB|77.72.5.150
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 77.72.5.150
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: AR|190.103.176.29
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 190.103.176.29
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: CL|190.120.230.9
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 190.120.230.9
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: BA|185.164.35.9
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.164.35.9
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US|167.88.62.104
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 167.88.62.104
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: DK|192.36.27.94
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.36.27.94
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: GT|170.80.111.6
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 170.80.111.6
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US|38.75.136.49
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 38.75.136.49
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: HR|46.183.184.60
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 46.183.184.60
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: MK|46.183.185.37
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 46.183.185.37
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: HR|46.183.184.61
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 46.183.184.61
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US|38.68.135.112
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 38.68.135.112
+- cipher: chacha20-ietf-poly1305
+  name: NL|185.140.209.74
+  password: C9Bj8nLTngraUjrwk82Ax7
+  port: 24224
+  server: 185.140.209.74
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -210,24 +168,17 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: DE|217.182.198.219
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 217.182.198.219
+  name: GB|145.239.6.202
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 145.239.6.202
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SE|45.8.147.80
-  password: Q5CEiebSuSl2qFkfE4ztG2
-  port: 5741
-  server: 45.8.147.80
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US|38.121.43.65
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 38.121.43.65
+  name: US|169.197.141.186
+  password: tvX1v#NSFP_LG_bJ
+  port: 801
+  server: 169.197.141.186
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -244,11 +195,46 @@ proxies:
   server: 38.91.100.27
   type: ss
   udp: true
+- cipher: aes-256-gcm
+  name: US|38.68.134.202
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 38.68.134.202
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US|38.68.135.112
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 38.68.135.112
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: DK|192.36.27.94
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.36.27.94
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: MK|46.183.185.37
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 46.183.185.37
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: IM|37.235.55.21
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 37.235.55.21
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US|38.121.43.65
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 38.121.43.65
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -263,5 +249,47 @@ proxies:
   password: U1EYRQpU8rLGRKvDMfR6Fv
   port: 47413
   server: 45.8.146.35
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: DE|49.13.10.50
+  password: Uxm4ADwftKdXq5qRA4ZfHS
+  port: 1194
+  server: 49.13.10.50
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: CH|84.17.53.160
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 84.17.53.160
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: MX|190.103.179.23
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 190.103.179.23
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US|38.68.134.69
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 38.68.134.69
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: FR|51.158.150.168
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 51.158.150.168
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SE|45.8.147.80
+  password: Q5CEiebSuSl2qFkfE4ztG2
+  port: 5741
+  server: 45.8.147.80
   type: ss
   udp: true
