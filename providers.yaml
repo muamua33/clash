@@ -35,6 +35,13 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
+  name: SG|18.142.250.63
+  password: amazonskr05
+  port: 443
+  server: 18.142.250.63
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
   name: SE|121.127.46.147
   password: f8f7aCzcPKbsF8p3
   port: 989
