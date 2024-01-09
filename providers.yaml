@@ -21,6 +21,13 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
+  name: SG|54.169.114.116
+  password: amazonskr05
+  port: 443
+  server: 54.169.114.116
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
   name: AT|185.180.12.81
   password: f8f7aCzcPKbsF8p3
   port: 989
@@ -146,32 +153,11 @@ proxies:
   server: 38.75.136.49
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: US|167.88.62.104
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 167.88.62.104
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   name: GT|170.80.111.6
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 170.80.111.6
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: PE|190.120.229.28
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 190.120.229.28
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: NL|185.140.209.74
-  password: C9Bj8nLTngraUjrwk82Ax7
-  port: 24224
-  server: 185.140.209.74
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -193,13 +179,6 @@ proxies:
   password: tvX1v#NSFP_LG_bJ
   port: 801
   server: 169.197.141.186
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US|38.91.100.27
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 38.91.100.27
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -256,13 +235,6 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 190.103.179.23
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US|38.68.134.69
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 38.68.134.69
   type: ss
   udp: true
 - cipher: aes-256-gcm
