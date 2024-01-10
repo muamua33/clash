@@ -14,10 +14,24 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
+  name: SG|54.169.114.116
+  password: amazonskr05
+  port: 443
+  server: 54.169.114.116
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
   name: AT|185.180.12.81
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.180.12.81
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: IE|54.171.29.16
+  password: YRLEc4AxMgtwPOrnAr3Yoj
+  port: 443
+  server: 54.171.29.16
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -25,6 +39,13 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 84.17.53.160
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: GB|51.142.142.155
+  password: rEFFUsg4pUiF5Olu5VeB3F
+  port: 5957
+  server: 51.142.142.155
   type: ss
   udp: true
 - cipher: aes-256-cfb
